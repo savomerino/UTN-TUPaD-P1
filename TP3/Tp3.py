@@ -216,22 +216,6 @@ print(f"Un terremoto de magnitud {magnitud} se clasifica como: {categoria}")
 #del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
 #si el usuario se encuentra en otoño, invierno, primavera o verano.
 
-# [Ejercicio 10]
-#Utilizando la información aportada en la siguiente tabla sobre las estaciones del año
-#+------------------------------------------+------------------------+---------------------+
-#|             Periodo del Año              |   Hemisferio Norte     |   Hemisferio Sur    |
-#+==========================================+========================+=====================+
-#| Desde el 21 de dic hasta el 20 de mar    |        Invierno        |        Verano       |
-#+------------------------------------------+------------------------+---------------------+
-#| Desde el 21 de mar hasta el 20 de jun    |        Primavera       |        Otoño        |
-#+------------------------------------------+------------------------+---------------------+
-#| Desde el 21 de jun hasta el 20 de sep    |         Verano         |       Invierno      |
-#+------------------------------------------+------------------------+---------------------+
-#| Desde el 21 de sep hasta el 20 de dic    |         Otoño          |       Primavera     |
-#+------------------------------------------+------------------------+---------------------+
-#Escribir un programa que pregunte al usuario en cuál hemisferio se encuentra (N/S), qué mes
-#del año es y qué día es. El programa deberá utilizar esa información para imprimir por pantalla
-#si el usuario se encuentra en otoño, invierno, primavera o verano.
 
 # pido los datos al usuario y se estandariza
 hemisferio = input("¿En qué hemisferio se encuentra? (N/S): ").upper()
