@@ -47,3 +47,28 @@ def guardar_csv(ruta, paises):
 # -------------------------------------------------------------
 # FIN MANEJO DEL CSV
 # -------------------------------------------------------------
+# -------------------------------------------------------------
+# AGREGAR PAIS
+# -------------------------------------------------------------
+def agregar_pais(paises):
+    print("AGREGAR PAIS")
+    nombre = input("NOMBRE: ").strip()
+    poblacion = input("POBLACION: ").strip()
+    superficie = input("SUPERFICIE: ").strip()
+    continente = input("CONTINENTE: ").strip()
+
+    if not nombre or not poblacion.isdigit() or not superficie.isdigit() or not continente:
+        print("DATOS INVALIDOS.")
+        return
+
+    pais = {
+        "nombre": nombre,
+        "poblacion": int(poblacion),
+        "superficie": int(superficie),
+        "continente": continente
+    }
+    paises.append(pais)
+    print("PAIS AGREGADO.")
+# -------------------------------------------------------------
+# FIN AGREGAR PAIS
+# -------------------------------------------------------------
