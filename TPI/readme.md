@@ -30,7 +30,7 @@ El sistema cuenta con un menú interactivo con las siguientes opciones:
 2.  Clona este repositorio o descarga los archivos.
 3.  Ejecuta el script principal:
     ```bash
-    python tpi_programacion_1.py
+    python tpi1.py
     ```
 4.  El archivo `paises.csv` se generará automáticamente si no existe.
 
